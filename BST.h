@@ -110,7 +110,7 @@ void printTree(TreeNodePtr treePtr, int level) {
 
        // Print the current node with indentation
        for (int i = 0; i < level; i++) {
-           printf("   ");  // 4 spaces per level of indentation
+           printf("   ");  // 3 spaces per level of indentation
        }
        printf("%3d\n", treePtr->data);
 
