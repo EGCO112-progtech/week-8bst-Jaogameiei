@@ -112,7 +112,7 @@ void printTree(TreeNodePtr treePtr, int level) {
        for (int i = 0; i < level; i++) {
            printf("   ");  // 4 spaces per level of indentation
        }
-       printf("%d\n", treePtr->data);
+       printf("%3d\n", treePtr->data);
 
        // Traverse the left subtree
        printTree(treePtr->leftPtr, level + 1);
