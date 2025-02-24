@@ -81,7 +81,7 @@ void inOrder( TreeNodePtr treePtr )
         
       inOrder( treePtr->leftPtr ); //Recursion to the left
  
-      printf("%3d ",treePtr->data) ;  //print the value 
+      printf("%3d",treePtr->data) ;  //print the value 
    
       inOrder( treePtr->rightPtr ); //Recursion to the right
    } // end if                          
@@ -89,7 +89,7 @@ void inOrder( TreeNodePtr treePtr )
 
 void preOrder(TreeNodePtr treePtr) {
    if (treePtr != NULL) {
-       printf("%3d ", treePtr->data);  // print the value first
+       printf("%3d", treePtr->data);  // print the value first
        preOrder(treePtr->leftPtr);    // then go left
        preOrder(treePtr->rightPtr);   // then go right
    }
@@ -99,7 +99,7 @@ void postOrder(TreeNodePtr treePtr) {
    if (treePtr != NULL) {
        postOrder(treePtr->leftPtr);    // traverse left subtree
        postOrder(treePtr->rightPtr);   // traverse right subtree
-       printf("%3d ", treePtr->data);   // print the value last
+       printf("%3d", treePtr->data);   // print the value last
    }
 }
 
