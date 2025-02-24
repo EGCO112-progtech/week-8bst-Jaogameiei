@@ -22,8 +22,8 @@ for ( i = 1; i < argc; ++i ) {
    inOrder( b.root );
 
    // traverse the tree postOrder
- printf("\npostnOrder\n" );   postOrder( b.root );
- printf("\n");
+ printf("\npostOrder\n" );   postOrder( b.root );
+ //printf("\n");
  //printf("\ntreeOrder\n" );
  printTree(b.root, 0);
     printf("\n");
